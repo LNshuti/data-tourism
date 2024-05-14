@@ -12,7 +12,7 @@ st.title("Population Density by Country")
 
 # Country selection dropdown
 country_iso = st.selectbox("Select a country by ISO code",
-                            ["SLV", "COL", "ECU"]
+                            ["SLV", "COL", "ECU", "VEN"]
                          )
 
 # Database connection and data retrieval
