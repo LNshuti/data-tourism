@@ -11,4 +11,4 @@
 ![imports](image-2.png)
 
 **Live App**
-![App](https://data-tourism-app.streamlit.app/)
+[App](https://data-tourism-app.streamlit.app/)
