@@ -5,9 +5,9 @@
 
 [Live App](https://data-tourism-app.streamlit.app/)
 
-**Exports**
+#### **Exports**
 ![exports](image-1.png)
 
-**Imports**
+#### **Imports**
 ![imports](image-2.png)
 
