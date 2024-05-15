@@ -1,7 +1,4 @@
-# data-tourism
-### Getting to know countries by what they buy and sell : El Salvador and Colombia
-
-
+# data-tourism: Getting to know countries by what they buy and sell 
 
 #### **Population Density**
 
