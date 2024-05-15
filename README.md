@@ -5,9 +5,6 @@
 
 [Live App](https://data-tourism-app.streamlit.app/)
 
-**Colombia**
-![goog map](image.png)
-
 **Exports**
 ![exports](image-1.png)
 
