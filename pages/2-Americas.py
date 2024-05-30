@@ -10,7 +10,7 @@ import duckdb
 st.title("Population Density Across Latin America")
 
 # List of Latin American countries' ISO codes
-countries_iso = ["SLV", "COL", "ECU", "VEN", "PER", "BOL", "ARG", "CHL", "URY", "PRY"]
+countries_iso = ["SLV", "COL"]
 
 # Database connection and data retrieval
 @st.cache_data(ttl=3600)
