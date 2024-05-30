@@ -13,7 +13,7 @@ st.title("Population Density Across Latin America")
 countries_iso = ["SLV", "COL", "ECU", "VEN", "PER", "BOL", "ARG", "CHL", "URY", "PRY"]
 
 # Database connection and data retrieval
-@st.cache(ttl=3600)
+@st.cache_data(ttl=3600)
 def load_data(countries_iso):
     con = duckdb.connect()
     con.sql("""
@@ -40,7 +40,7 @@ def load_data(countries_iso):
 df = load_data(countries_iso)
 
 # Create a Datashader canvas and aggregate points
-@st.cache
+@st.cache_data
 def create_image(df):
     cvs = ds.Canvas(plot_width=690, plot_height=800)
     agg = cvs.points(df, 'longitude', 'latitude')
