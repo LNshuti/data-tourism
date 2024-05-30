@@ -5,6 +5,7 @@ from matplotlib.colors import LinearSegmentedColormap
 import datashader as ds
 import colorcet
 import duckdb
+import numpy as np
 
 # Initialize Streamlit app
 st.title("Population Density Across Latin America")
