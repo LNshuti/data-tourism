@@ -11,7 +11,7 @@ import numpy as np
 st.title("Population Density Across Latin America")
 
 # List of Latin American countries' ISO codes
-countries_iso = ["GUY", "SUR", "VEN"]
+countries_iso = ["GUY", "SUR", "VEN", "COL"]
 
 # Database connection and data retrieval
 @st.cache_data(ttl=3600)
