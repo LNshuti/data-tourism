@@ -4,7 +4,7 @@
 =======
 ### **Live App**
 
-[Live App](https://data-tourism-app.streamlit.app/)
+[Live App](https://data-tourism.streamlit.app/)
 
 #### **Population Density**
 
